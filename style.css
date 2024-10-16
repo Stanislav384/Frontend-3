@@ -71,3 +71,21 @@ input[type="text"]::placeholder {
     width: 50px;
     height: auto;
 }
+
+.big-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.big-foto p {
+    position: absolute;
+    color: white;
+    left: 160px;
+    top: 276px;
+    font-family: 'Futura';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 96px;
+}
+
