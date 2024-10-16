@@ -87,6 +87,7 @@ input[type="text"]::placeholder {
     font-style: italic;
     font-weight: 700;
     font-size: 96px;
+    cursor: default;
 }
 
 .pictures {
@@ -98,23 +99,28 @@ input[type="text"]::placeholder {
     transition: transform 0.3s ease;
 }
 
-.picture div{
+.pictures div{
     text-align: center;
 }
 
-.picture a {
+.pictures a {
     text-decoration: none;
     display: block;
-    color: inherit;
+    color: #001F3F;
 }
 
 .pictures p {
     margin-top: 10px;
     font-size: 20px;
     text-decoration: none;
-    font-family: 'Futura';
-    font-style: italic;
+    font-family: 'Futura', Bold Condensed Oblique;
+    transition: color 0.3s ease;
 }
+
+.pictures a:hover {
+    color: #007BFF;
+}
+
 
 .air-max {
     position: absolute;
@@ -123,6 +129,7 @@ input[type="text"]::placeholder {
     z-index: 1;
 
 }
+
 .footer {
 position: relative;
 align-items: center;
@@ -170,7 +177,6 @@ background: url(Logo_NIKE.svg);
     font-size: 25px;
     padding: 10px;
     transition: color 0.3s ease;
-
 }
 
 .footer-elements li a:hover {
