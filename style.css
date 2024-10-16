@@ -89,3 +89,18 @@ input[type="text"]::placeholder {
     font-size: 96px;
 }
 
+.pictures {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 57px;
+}
+
+.air-max {
+    position: absolute;
+    top: 540px;
+    left: 67px;
+    z-index: 1;
+
+}
