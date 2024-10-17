@@ -72,10 +72,16 @@ input[type="text"]::placeholder {
     height: auto;
 }
 
+
+main {
+    display: inline-block;
+}
+
 .big-foto {
     display: flex;
     justify-content: center;
     position: relative;
+    margin-left: -10px;
 }
 
 .big-foto p {
@@ -94,8 +100,8 @@ input[type="text"]::placeholder {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 55px;
+    padding-left: 40px;
+    gap: 57px;
     transition: transform 0.3s ease;
 }
 
@@ -128,18 +134,18 @@ input[type="text"]::placeholder {
 .air-max {
     position: absolute;
     top: 540px;
-    left: 67px;
+    left: 40px;
     z-index: 1;
 
 }
 
 .footer-menu {
-position: relative;
-align-items: center;
-align-content: center;
-display: flex;
-margin-top: 20px;
-background: #FFFFFF;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+    background: #FFFFFF;
 
 }
 .footer-logo{
