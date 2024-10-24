@@ -1,0 +1,139 @@
+.pictures-mountain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 1680px;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.logo-menu img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px;
+
+}
+
+.menu-elements li {
+    display: inline;
+}
+
+.menu-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+
+}
+
+.menu-elements li a:hover {
+    color: #007BFF;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.search-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.shopping-cart-ikon a img{
+    width: 50px;
+    height: auto;
+}
+
+.women-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30%;
+    background-color: white;
+}
+.women-text{
+    display: flex;
+    justify-content: center;
+}
+.women-elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px;
+    
+}
+
+.women-elements li {
+    display: inline;
+}
+
+.women-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+
+}
+
+.women-elements li a:hover {
+    color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
