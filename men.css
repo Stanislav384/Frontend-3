@@ -115,9 +115,26 @@ input[type="text"]::placeholder {
     color: #007BFF;
 }
 
-
-
-
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+.first-row,
+.second-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.pic1, .pic2, .pic3, .pic4 {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+  
 
 
 
