@@ -74,23 +74,30 @@ input[type="text"]::placeholder {
 
 .men-menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-right: 30%;
     background-color: white;
+    padding: 0 20px;
+    position: relative; 
+}
+
+.men-menu h1 {
+    font-weight: normal;
+    margin: 0;
 }
 
 .men-elements {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 70px;
-    
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;       
+    left: 50%;                
+    transform: translateX(-50%);
 }
 
 .men-elements li {
-    display: inline;
+    margin: 0 10px;
 }
 
 .men-elements li a {
@@ -102,9 +109,65 @@ input[type="text"]::placeholder {
     font-size: 25px;
     padding: 10px;
     transition: color 0.3s ease;
-
 }
 
 .men-elements li a:hover {
+    color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-menu {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+    background: #FFFFFF;
+
+}
+.footer-logo{
+    margin-left: 20px;
+
+}
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 450px;
+
+}
+
+.footer-elements li {
+    text-align: center;
+    display: inline;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-elements li a:hover {
     color: #007BFF;
 }
