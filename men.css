@@ -133,11 +133,30 @@ input[type="text"]::placeholder {
     flex: 1;
     max-width: 100%;
     height: auto;
+    position: relative;
 }
   
+.text-on-pic1, .text-on-pic2, .text-on-pic3, .text-on-pic4 {
+    position: absolute;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 500;
+    font-size: 25px;
+    bottom: 40px; /* Отступ от нижнего края */
+    left: 30px; /* Отступ от левого края */
+    color: white; /* Цвет текста */
+  }
 
-
-
+.text-on-pic1 a, .text-on-pic2 a, .text-on-pic3 a, .text-on-pic4 a {
+    color: black; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 30px; /* Закругленные углы */
+    padding: 5px 10px; /* Отступы внутри кнопки */
+    text-decoration: none; /* Убираем подчеркивание */
+    background-color: rgb(255, 255, 255); /* Полупрозрачный фон, если требуется */
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Futura', Bold Condensed Oblique;
+}
 
 
 
