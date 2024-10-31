@@ -80,72 +80,89 @@ input[type="text"]::placeholder {
     height: auto;
 }
 
-
-main {
-    display: inline-block;
-}
-
-.big-foto {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-left: -10px;
-}
-
-.big-foto p {
-    position: absolute;
-    color: white;
-    left: 160px;
-    top: 276px;
-    font-family: 'Futura';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 96px;
-    cursor: default;
-}
-
-.pictures {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 40px;
-    gap: 57px;
-    transition: transform 0.3s ease;
-}
-
-.pictures div{
+.main-text {
     text-align: center;
-    padding-top: 37px;
-}
-
-.pictures a {
-    text-decoration: none;
-    display: block;
-    color: #001F3F;
-}
-
-.pictures p {
-    margin-top: 10px;
+    font-family: 'Futura', Bold Condensed Oblique;
     font-size: 20px;
+    margin: 30px;
+}
+
+.main-text h3 {
+    font-size: 70px;
+    line-height: 1;
+    margin: 0;
+}
+
+
+.button a {
     text-decoration: none;
     font-family: 'Futura', Bold Condensed Oblique;
-    transition: color 0.3s ease;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    padding: 7px 10px;
+}
+
+.button a:hover {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.pics {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-
-.pictures a:hover {
-    color: #007BFF;
+  
+.first-row,
+.second-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-
-
-.air-max {
+  
+.pic1, .pic2, .pic3, .pic4 {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+  
+.text-on-pic1, .text-on-pic2, .text-on-pic3, .text-on-pic4 {
     position: absolute;
-    top: 540px;
-    left: 40px;
-    z-index: 1;
-
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 500;
+    font-size: 25px;
+    bottom: 40px; 
+    left: 30px;
+    color: white;
 }
+
+.text-on-pic1 a, .text-on-pic2 a, .text-on-pic3 a, .text-on-pic4 a {
+    color: black; 
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    background-color: rgb(255, 255, 255); 
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Futura', Bold Condensed Oblique;
+}
+
+.text-on-pic1 a:hover, .text-on-pic2 a:hover, .text-on-pic3 a:hover, .text-on-pic4 a:hover {
+    background-color:  rgb(193, 193, 193);
+    border: 2px solid rgb(193, 193, 193);
+}
+
+
+
+
+
+
 
 .footer-menu {
     position: relative;
