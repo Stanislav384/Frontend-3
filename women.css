@@ -1,14 +1,11 @@
-.pictures-mountain{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-    width: 1680px;
-    height: auto;
+header {
+    position: sticky;
     top: 0;
-    left: 0;
-    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
 }
+
 
 .menu-header {
     display: flex;
@@ -124,10 +121,141 @@ input[type="text"]::placeholder {
     color: #007BFF;
 }
 
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+.first-row,
+.second-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.pic1, .pic2, .pic3, .pic4 {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+  
+.text-on-pic1, .text-on-pic2, .text-on-pic3, .text-on-pic4 {
+    position: absolute;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 500;
+    font-size: 25px;
+    bottom: 40px; /* Отступ от нижнего края */
+    left: 30px; /* Отступ от левого края */
+    color: white; /* Цвет текста */
+  }
+
+.text-on-pic1 a, .text-on-pic2 a, .text-on-pic3 a, .text-on-pic4 a {
+    color: black; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 30px; /* Закругленные углы */
+    padding: 5px 10px; /* Отступы внутри кнопки */
+    text-decoration: none; /* Убираем подчеркивание */
+    background-color: rgb(255, 255, 255); /* Полупрозрачный фон, если требуется */
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Futura', Bold Condensed Oblique;
+}
+
+.text-on-pic1 a:hover, .text-on-pic2 a:hover, .text-on-pic3 a:hover, .text-on-pic4 a:hover {
+    background-color:  rgb(193, 193, 193);
+    border: 2px solid rgb(193, 193, 193);
+}
+.pic-page {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+}
+.colored-pictures{
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+}
+.clothing, .shoes, .bras-Leggings, .colored-pictures {
+    flex: 1;
+    text-align: start;
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+    position: relative;
+}
+.clothing a, .shoes a, .bras-Leggings a, .colored-pictures a{
+    text-decoration: none; 
+    font-family: 'Futura', Bold Condensed Oblique;
+    border-radius: 8px;
+    font-size: 23px;
+    color: black; 
+}
+.clothing a:hover, .shoes a:hover, .bras-Leggings a:hover, .colored-pictures a:hover {
+    color: #007BFF;
+    border-radius: 8px;
+}
 
 
+.clothing h3, .shoes h3, .bras-Leggings h3, .colored-pictures h3 {
+    font-weight: 500;
+    border-radius: 8px;
+    color: inherit;
+}
+h1 {
+    font-weight: normal;
+    margin-left: 40px;
+}
 
+.footer-menu {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+    background: #FFFFFF;
 
+}
+.footer-logo{
+    margin-left: 20px;
+
+}
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 450px;
+
+}
+
+.footer-elements li {
+    text-align: center;
+    display: inline;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-elements li a:hover {
+    color: #007BFF;
+}
 
 
 
