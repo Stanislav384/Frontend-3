@@ -1,3 +1,11 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
+}
+
 .menu-header {
     display: flex;
     justify-content: space-between;
@@ -120,7 +128,7 @@ input[type="text"]::placeholder {
     flex-direction: column;
     align-items: center;
     width: 100%;
-  }
+}
   
 .first-row,
 .second-row {
@@ -141,25 +149,65 @@ input[type="text"]::placeholder {
     font-family: 'Futura', Bold Condensed Oblique;
     font-weight: 500;
     font-size: 25px;
-    bottom: 40px; /* Отступ от нижнего края */
-    left: 30px; /* Отступ от левого края */
-    color: white; /* Цвет текста */
-  }
+    bottom: 40px; 
+    left: 30px;
+    color: white;
+}
 
 .text-on-pic1 a, .text-on-pic2 a, .text-on-pic3 a, .text-on-pic4 a {
-    color: black; /* Цвет текста */
-    border: 2px solid white; /* Белая рамка */
-    border-radius: 30px; /* Закругленные углы */
-    padding: 5px 10px; /* Отступы внутри кнопки */
-    text-decoration: none; /* Убираем подчеркивание */
-    background-color: rgb(255, 255, 255); /* Полупрозрачный фон, если требуется */
+    color: black; 
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    background-color: rgb(255, 255, 255); 
     font-size: 24px;
     line-height: 24px;
     font-family: 'Futura', Bold Condensed Oblique;
 }
 
+.text-on-pic1 a:hover, .text-on-pic2 a:hover, .text-on-pic3 a:hover, .text-on-pic4 a:hover {
+    background-color:  rgb(193, 193, 193);
+    border: 2px solid rgb(193, 193, 193);
+}
 
 
+.pic-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.accessories, .shoes, .clothing {
+    flex: 1;
+    text-align: start;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.accessories a, .shoes a, .clothing a{
+    text-decoration: none; 
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-size: 23px;
+    color: black; 
+}
+
+.accessories a:hover, .shoes a:hover, .clothing a:hover {
+    color: #007BFF;
+}
+
+
+
+.accessories h3, .shoes h3, .clothing h3 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: normal;
+    margin-left: 40px;
+}
 
 
 
