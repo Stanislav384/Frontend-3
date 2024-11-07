@@ -1,0 +1,194 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.logo-menu img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px;
+
+}
+
+.menu-elements li {
+    display: inline;
+}
+
+.menu-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+
+}
+
+.menu-elements li a:hover {
+    color: #007BFF;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.search-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.shopping-cart-ikon a img{
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между карточками */
+    padding: 20px; /* Отступ от краёв экрана */
+    justify-content: center;
+}
+
+  /* Основные стили карточки */
+  .product-card {
+    width: 250px;
+    height: 450px; /* Фиксированная высота для карточек */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: start;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+  /* Изображение товара */
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+  /* Название товара */
+  .product-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+}
+
+  /* Описание товара */
+  .product-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Ограничение описания до 3 строк */
+    -webkit-box-orient: vertical;
+}
+
+  /* Цена */
+  .product-price {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+main a {
+    text-decoration: none;
+}
+
+
+.footer-menu {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+    background: #FFFFFF;
+
+}
+.footer-logo{
+    margin-left: 20px;
+
+}
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 450px;
+
+}
+
+.footer-elements li {
+    text-align: center;
+    display: inline;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-elements li a:hover {
+    color: #007BFF;
+}
