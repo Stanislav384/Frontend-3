@@ -88,6 +88,10 @@ input[type="text"]::placeholder {
     padding-right: 30%;
     background-color: white;
 }
+.women-menu h1 {
+    font-weight: normal;
+    margin: 5px;
+}
 .women-text{
     display: flex;
     justify-content: center;
@@ -174,11 +178,13 @@ input[type="text"]::placeholder {
     align-items: center;
     padding: 20px;
     gap: 20px;
-    width: 100%;
+    width: 98%;
 }
 .colored-pictures{
     display: flex;
     gap: 20px;
+    width: 90%;
+    height: 90%;
     border-radius: 8px;
 }
 .clothing, .shoes, .bras-Leggings, .colored-pictures {
