@@ -148,6 +148,12 @@ main a {
 }
 
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 .footer-menu {
     position: relative;
     align-items: center;
